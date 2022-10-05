@@ -1,0 +1,20 @@
+import React from 'react'
+
+import {
+    Routes,
+    Route,
+} from "react-router-dom";
+
+import Home from '../pages/Home';
+import Reservas from '../pages/Reservas';
+
+
+
+export default function MyRoutes() {
+    return (
+        <Routes>
+            <Route path="/" element={<Home/>} />
+            <Route path="/reservations" element={<Reservas/>} />
+        </Routes>
+    )
+}

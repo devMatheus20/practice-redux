@@ -1,0 +1,36 @@
+.title {
+    color: #fff;
+}
+
+.reservas {
+    padding: 20px;
+    margin-bottom: 20px;
+    background: #fff;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    img {
+        height: 100px;
+    }
+
+    button {
+        cursor: pointer;
+        border: none;
+        background: #fff;
+    }
+}
+
+footer {
+
+    button {
+        border: none;
+        display: flex;
+        padding: 10px;
+        text-transform: uppercase;
+        border-radius: 4px;
+        margin-top: 10px;
+        font-weight: bold;
+    }
+}
